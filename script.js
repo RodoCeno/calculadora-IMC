@@ -23,7 +23,7 @@ function calcular() {
         teste = "com obesidade grau III. <br> PROCURE ORIENTAÇÃO MÉDICA!"
     }
 
-    resultado.innerHTML = `<p style.padding: "20px"> Seu imc é de ${calcfinal} <br>E você está ${teste} </p>`
+    resultado.innerHTML = `<p style.padding: "20px"> Seu IMC é de ${calcfinal} <br>E você está ${teste} </p>`
     document.getElementById("resultado").style.padding = "20px";
 
 }
